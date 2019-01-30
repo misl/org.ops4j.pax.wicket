@@ -21,7 +21,6 @@
   <feature name="wicket" version="${wicket.dependency.version}">
     <feature>http</feature>
     <feature prerequisite="true">wrap</feature>
-    <bundle>mvn:org.slf4j/slf4j-api/${slf4j.version}</bundle>
     <bundle>mvn:org.apache.commons/commons-collections4/${commons-collections4.version}</bundle>
     <bundle>wrap:mvn:org.danekja/jdk-serializable-functional/${jdk-serializable-functional.version}</bundle>
     <bundle>wrap:mvn:com.github.openjson/openjson/${openjson.version}</bundle>
