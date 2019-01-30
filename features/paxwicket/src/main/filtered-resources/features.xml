@@ -44,7 +44,6 @@
         <feature>pax-wicket</feature>
         <feature>aries-proxy</feature>
         <feature>aries-blueprint</feature>
-        <feature>aries-annotation</feature>
         <bundle>mvn:org.ops4j.pax.wicket.spi/org.ops4j.pax.wicket.spi.blueprint/${project.version}</bundle>
 
 
