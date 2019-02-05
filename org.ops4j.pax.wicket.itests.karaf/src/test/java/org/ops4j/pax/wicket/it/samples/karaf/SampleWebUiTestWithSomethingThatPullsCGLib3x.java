@@ -89,7 +89,7 @@ public class SampleWebUiTestWithSomethingThatPullsCGLib3x {
 
         MavenArtifactUrlReference karafUrl = maven()
                 .groupId("org.apache.karaf").artifactId("apache-karaf")
-                .version("4.0.5").type("zip");
+                .version("4.2.2").type("zip");
 
         return new Option[]{
             KarafDistributionOption.debugConfiguration("5005", false),
